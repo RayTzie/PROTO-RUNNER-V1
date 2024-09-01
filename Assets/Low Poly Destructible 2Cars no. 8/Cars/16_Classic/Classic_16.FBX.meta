@@ -1,0 +1,420 @@
+fileFormatVersion: 2
+guid: 000e268602069ee41b503cc210240ef7
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Classic_16_Body
+    100004: Classic_16_Dashboard
+    100006: Classic_16_Door_L
+    100008: Classic_16_Door_R
+    100010: Classic_16_Hood
+    100012: Classic_16_LightGlass_L
+    100014: Classic_16_LightGlass_R
+    100016: Classic_16_Roof
+    100018: Classic_16_Taillights
+    100020: Classic_16_Trunk
+    100022: Classic_16_Window_B
+    100024: Classic_16_Window_F
+    100026: Classic_16_Window_LB
+    100028: Classic_16_Window_LF
+    100030: Classic_16_Window_RB
+    100032: Classic_16_Window_RF
+    400000: //RootNode
+    400002: Classic_16_Body
+    400004: Classic_16_Dashboard
+    400006: Classic_16_Door_L
+    400008: Classic_16_Door_R
+    400010: Classic_16_Hood
+    400012: Classic_16_LightGlass_L
+    400014: Classic_16_LightGlass_R
+    400016: Classic_16_Roof
+    400018: Classic_16_Taillights
+    400020: Classic_16_Trunk
+    400022: Classic_16_Window_B
+    400024: Classic_16_Window_F
+    400026: Classic_16_Window_LB
+    400028: Classic_16_Window_LF
+    400030: Classic_16_Window_RB
+    400032: Classic_16_Window_RF
+    2300000: Classic_16_Body
+    2300002: Classic_16_Dashboard
+    2300004: Classic_16_Door_L
+    2300006: Classic_16_Door_R
+    2300008: Classic_16_Hood
+    2300010: Classic_16_LightGlass_L
+    2300012: Classic_16_LightGlass_R
+    2300014: Classic_16_Roof
+    2300016: Classic_16_Taillights
+    2300018: Classic_16_Trunk
+    2300020: Classic_16_Window_B
+    2300022: Classic_16_Window_F
+    2300024: Classic_16_Window_LB
+    2300026: Classic_16_Window_LF
+    2300028: Classic_16_Window_RB
+    2300030: Classic_16_Window_RF
+    3300000: Classic_16_Body
+    3300002: Classic_16_Dashboard
+    3300004: Classic_16_Door_L
+    3300006: Classic_16_Door_R
+    3300008: Classic_16_Hood
+    3300010: Classic_16_LightGlass_L
+    3300012: Classic_16_LightGlass_R
+    3300014: Classic_16_Roof
+    3300016: Classic_16_Taillights
+    3300018: Classic_16_Trunk
+    3300020: Classic_16_Window_B
+    3300022: Classic_16_Window_F
+    3300024: Classic_16_Window_LB
+    3300026: Classic_16_Window_LF
+    3300028: Classic_16_Window_RB
+    3300030: Classic_16_Window_RF
+    4300000: Classic_16_Body
+    4300002: Classic_16_Taillights
+    4300004: Classic_16_Dashboard
+    4300006: Classic_16_Door_R
+    4300008: Classic_16_Door_L
+    4300010: Classic_16_Hood
+    4300012: Classic_16_Trunk
+    4300014: Classic_16_Roof
+    4300016: Classic_16_Window_F
+    4300018: Classic_16_Window_RF
+    4300020: Classic_16_Window_RB
+    4300022: Classic_16_Window_B
+    4300024: Classic_16_Window_LB
+    4300026: Classic_16_Window_LF
+    4300028: Classic_16_LightGlass_R
+    4300030: Classic_16_LightGlass_L
+    7400000: Take 001
+    7400002: Classic_16_Body|Classic_16_Body|Take 001|BaseLayer
+    7400004: Classic_16_Body|Classic_16_Dashboard|Take 001|BaseLayer
+    7400006: Classic_16_Body|Classic_16_Door_L|Take 001|BaseLayer
+    7400008: Classic_16_Body|Classic_16_Door_R|Take 001|BaseLayer
+    7400010: Classic_16_Body|Classic_16_Hood|Take 001|BaseLayer
+    7400012: Classic_16_Body|Classic_16_LightGlass_L|Take 001|BaseLayer
+    7400014: Classic_16_Body|Classic_16_LightGlass_R|Take 001|BaseLayer
+    7400016: Classic_16_Body|Classic_16_Roof|Take 001|BaseLayer
+    7400018: Classic_16_Body|Classic_16_Taillights|Take 001|BaseLayer
+    7400020: Classic_16_Body|Classic_16_Trunk|Take 001|BaseLayer
+    7400022: Classic_16_Body|Classic_16_Window_B|Take 001|BaseLayer
+    7400024: Classic_16_Body|Classic_16_Window_F|Take 001|BaseLayer
+    7400026: Classic_16_Body|Classic_16_Window_LB|Take 001|BaseLayer
+    7400028: Classic_16_Body|Classic_16_Window_LF|Take 001|BaseLayer
+    7400030: Classic_16_Body|Classic_16_Window_RB|Take 001|BaseLayer
+    7400032: Classic_16_Body|Classic_16_Window_RF|Take 001|BaseLayer
+    7400034: Classic_16_Taillights|Classic_16_Body|Take 001|BaseLayer
+    7400036: Classic_16_Taillights|Classic_16_Dashboard|Take 001|BaseLayer
+    7400038: Classic_16_Taillights|Classic_16_Door_L|Take 001|BaseLayer
+    7400040: Classic_16_Taillights|Classic_16_Door_R|Take 001|BaseLayer
+    7400042: Classic_16_Taillights|Classic_16_Hood|Take 001|BaseLayer
+    7400044: Classic_16_Taillights|Classic_16_LightGlass_L|Take 001|BaseLayer
+    7400046: Classic_16_Taillights|Classic_16_LightGlass_R|Take 001|BaseLayer
+    7400048: Classic_16_Taillights|Classic_16_Roof|Take 001|BaseLayer
+    7400050: Classic_16_Taillights|Classic_16_Taillights|Take 001|BaseLayer
+    7400052: Classic_16_Taillights|Classic_16_Trunk|Take 001|BaseLayer
+    7400054: Classic_16_Taillights|Classic_16_Window_B|Take 001|BaseLayer
+    7400056: Classic_16_Taillights|Classic_16_Window_F|Take 001|BaseLayer
+    7400058: Classic_16_Taillights|Classic_16_Window_LB|Take 001|BaseLayer
+    7400060: Classic_16_Taillights|Classic_16_Window_LF|Take 001|BaseLayer
+    7400062: Classic_16_Taillights|Classic_16_Window_RB|Take 001|BaseLayer
+    7400064: Classic_16_Taillights|Classic_16_Window_RF|Take 001|BaseLayer
+    7400066: Classic_16_Dashboard|Classic_16_Body|Take 001|BaseLayer
+    7400068: Classic_16_Dashboard|Classic_16_Dashboard|Take 001|BaseLayer
+    7400070: Classic_16_Dashboard|Classic_16_Door_L|Take 001|BaseLayer
+    7400072: Classic_16_Dashboard|Classic_16_Door_R|Take 001|BaseLayer
+    7400074: Classic_16_Dashboard|Classic_16_Hood|Take 001|BaseLayer
+    7400076: Classic_16_Dashboard|Classic_16_LightGlass_L|Take 001|BaseLayer
+    7400078: Classic_16_Dashboard|Classic_16_LightGlass_R|Take 001|BaseLayer
+    7400080: Classic_16_Dashboard|Classic_16_Roof|Take 001|BaseLayer
+    7400082: Classic_16_Dashboard|Classic_16_Taillights|Take 001|BaseLayer
+    7400084: Classic_16_Dashboard|Classic_16_Trunk|Take 001|BaseLayer
+    7400086: Classic_16_Dashboard|Classic_16_Window_B|Take 001|BaseLayer
+    7400088: Classic_16_Dashboard|Classic_16_Window_F|Take 001|BaseLayer
+    7400090: Classic_16_Dashboard|Classic_16_Window_LB|Take 001|BaseLayer
+    7400092: Classic_16_Dashboard|Classic_16_Window_LF|Take 001|BaseLayer
+    7400094: Classic_16_Dashboard|Classic_16_Window_RB|Take 001|BaseLayer
+    7400096: Classic_16_Dashboard|Classic_16_Window_RF|Take 001|BaseLayer
+    7400098: Classic_16_Door_R|Classic_16_Body|Take 001|BaseLayer
+    7400100: Classic_16_Door_R|Classic_16_Dashboard|Take 001|BaseLayer
+    7400102: Classic_16_Door_R|Classic_16_Door_L|Take 001|BaseLayer
+    7400104: Classic_16_Door_R|Classic_16_Door_R|Take 001|BaseLayer
+    7400106: Classic_16_Door_R|Classic_16_Hood|Take 001|BaseLayer
+    7400108: Classic_16_Door_R|Classic_16_LightGlass_L|Take 001|BaseLayer
+    7400110: Classic_16_Door_R|Classic_16_LightGlass_R|Take 001|BaseLayer
+    7400112: Classic_16_Door_R|Classic_16_Roof|Take 001|BaseLayer
+    7400114: Classic_16_Door_R|Classic_16_Taillights|Take 001|BaseLayer
+    7400116: Classic_16_Door_R|Classic_16_Trunk|Take 001|BaseLayer
+    7400118: Classic_16_Door_R|Classic_16_Window_B|Take 001|BaseLayer
+    7400120: Classic_16_Door_R|Classic_16_Window_F|Take 001|BaseLayer
+    7400122: Classic_16_Door_R|Classic_16_Window_LB|Take 001|BaseLayer
+    7400124: Classic_16_Door_R|Classic_16_Window_LF|Take 001|BaseLayer
+    7400126: Classic_16_Door_R|Classic_16_Window_RB|Take 001|BaseLayer
+    7400128: Classic_16_Door_R|Classic_16_Window_RF|Take 001|BaseLayer
+    7400130: Classic_16_Door_L|Classic_16_Body|Take 001|BaseLayer
+    7400132: Classic_16_Door_L|Classic_16_Dashboard|Take 001|BaseLayer
+    7400134: Classic_16_Door_L|Classic_16_Door_L|Take 001|BaseLayer
+    7400136: Classic_16_Door_L|Classic_16_Door_R|Take 001|BaseLayer
+    7400138: Classic_16_Door_L|Classic_16_Hood|Take 001|BaseLayer
+    7400140: Classic_16_Door_L|Classic_16_LightGlass_L|Take 001|BaseLayer
+    7400142: Classic_16_Door_L|Classic_16_LightGlass_R|Take 001|BaseLayer
+    7400144: Classic_16_Door_L|Classic_16_Roof|Take 001|BaseLayer
+    7400146: Classic_16_Door_L|Classic_16_Taillights|Take 001|BaseLayer
+    7400148: Classic_16_Door_L|Classic_16_Trunk|Take 001|BaseLayer
+    7400150: Classic_16_Door_L|Classic_16_Window_B|Take 001|BaseLayer
+    7400152: Classic_16_Door_L|Classic_16_Window_F|Take 001|BaseLayer
+    7400154: Classic_16_Door_L|Classic_16_Window_LB|Take 001|BaseLayer
+    7400156: Classic_16_Door_L|Classic_16_Window_LF|Take 001|BaseLayer
+    7400158: Classic_16_Door_L|Classic_16_Window_RB|Take 001|BaseLayer
+    7400160: Classic_16_Door_L|Classic_16_Window_RF|Take 001|BaseLayer
+    7400162: Classic_16_Hood|Classic_16_Body|Take 001|BaseLayer
+    7400164: Classic_16_Hood|Classic_16_Dashboard|Take 001|BaseLayer
+    7400166: Classic_16_Hood|Classic_16_Door_L|Take 001|BaseLayer
+    7400168: Classic_16_Hood|Classic_16_Door_R|Take 001|BaseLayer
+    7400170: Classic_16_Hood|Classic_16_Hood|Take 001|BaseLayer
+    7400172: Classic_16_Hood|Classic_16_LightGlass_L|Take 001|BaseLayer
+    7400174: Classic_16_Hood|Classic_16_LightGlass_R|Take 001|BaseLayer
+    7400176: Classic_16_Hood|Classic_16_Roof|Take 001|BaseLayer
+    7400178: Classic_16_Hood|Classic_16_Taillights|Take 001|BaseLayer
+    7400180: Classic_16_Hood|Classic_16_Trunk|Take 001|BaseLayer
+    7400182: Classic_16_Hood|Classic_16_Window_B|Take 001|BaseLayer
+    7400184: Classic_16_Hood|Classic_16_Window_F|Take 001|BaseLayer
+    7400186: Classic_16_Hood|Classic_16_Window_LB|Take 001|BaseLayer
+    7400188: Classic_16_Hood|Classic_16_Window_LF|Take 001|BaseLayer
+    7400190: Classic_16_Hood|Classic_16_Window_RB|Take 001|BaseLayer
+    7400192: Classic_16_Hood|Classic_16_Window_RF|Take 001|BaseLayer
+    7400194: Classic_16_Trunk|Classic_16_Body|Take 001|BaseLayer
+    7400196: Classic_16_Trunk|Classic_16_Dashboard|Take 001|BaseLayer
+    7400198: Classic_16_Trunk|Classic_16_Door_L|Take 001|BaseLayer
+    7400200: Classic_16_Trunk|Classic_16_Door_R|Take 001|BaseLayer
+    7400202: Classic_16_Trunk|Classic_16_Hood|Take 001|BaseLayer
+    7400204: Classic_16_Trunk|Classic_16_LightGlass_L|Take 001|BaseLayer
+    7400206: Classic_16_Trunk|Classic_16_LightGlass_R|Take 001|BaseLayer
+    7400208: Classic_16_Trunk|Classic_16_Roof|Take 001|BaseLayer
+    7400210: Classic_16_Trunk|Classic_16_Taillights|Take 001|BaseLayer
+    7400212: Classic_16_Trunk|Classic_16_Trunk|Take 001|BaseLayer
+    7400214: Classic_16_Trunk|Classic_16_Window_B|Take 001|BaseLayer
+    7400216: Classic_16_Trunk|Classic_16_Window_F|Take 001|BaseLayer
+    7400218: Classic_16_Trunk|Classic_16_Window_LB|Take 001|BaseLayer
+    7400220: Classic_16_Trunk|Classic_16_Window_LF|Take 001|BaseLayer
+    7400222: Classic_16_Trunk|Classic_16_Window_RB|Take 001|BaseLayer
+    7400224: Classic_16_Trunk|Classic_16_Window_RF|Take 001|BaseLayer
+    7400226: Classic_16_Roof|Classic_16_Body|Take 001|BaseLayer
+    7400228: Classic_16_Roof|Classic_16_Dashboard|Take 001|BaseLayer
+    7400230: Classic_16_Roof|Classic_16_Door_L|Take 001|BaseLayer
+    7400232: Classic_16_Roof|Classic_16_Door_R|Take 001|BaseLayer
+    7400234: Classic_16_Roof|Classic_16_Hood|Take 001|BaseLayer
+    7400236: Classic_16_Roof|Classic_16_LightGlass_L|Take 001|BaseLayer
+    7400238: Classic_16_Roof|Classic_16_LightGlass_R|Take 001|BaseLayer
+    7400240: Classic_16_Roof|Classic_16_Roof|Take 001|BaseLayer
+    7400242: Classic_16_Roof|Classic_16_Taillights|Take 001|BaseLayer
+    7400244: Classic_16_Roof|Classic_16_Trunk|Take 001|BaseLayer
+    7400246: Classic_16_Roof|Classic_16_Window_B|Take 001|BaseLayer
+    7400248: Classic_16_Roof|Classic_16_Window_F|Take 001|BaseLayer
+    7400250: Classic_16_Roof|Classic_16_Window_LB|Take 001|BaseLayer
+    7400252: Classic_16_Roof|Classic_16_Window_LF|Take 001|BaseLayer
+    7400254: Classic_16_Roof|Classic_16_Window_RB|Take 001|BaseLayer
+    7400256: Classic_16_Roof|Classic_16_Window_RF|Take 001|BaseLayer
+    7400258: Classic_16_Window_F|Classic_16_Body|Take 001|BaseLayer
+    7400260: Classic_16_Window_F|Classic_16_Dashboard|Take 001|BaseLayer
+    7400262: Classic_16_Window_F|Classic_16_Door_L|Take 001|BaseLayer
+    7400264: Classic_16_Window_F|Classic_16_Door_R|Take 001|BaseLayer
+    7400266: Classic_16_Window_F|Classic_16_Hood|Take 001|BaseLayer
+    7400268: Classic_16_Window_F|Classic_16_LightGlass_L|Take 001|BaseLayer
+    7400270: Classic_16_Window_F|Classic_16_LightGlass_R|Take 001|BaseLayer
+    7400272: Classic_16_Window_F|Classic_16_Roof|Take 001|BaseLayer
+    7400274: Classic_16_Window_F|Classic_16_Taillights|Take 001|BaseLayer
+    7400276: Classic_16_Window_F|Classic_16_Trunk|Take 001|BaseLayer
+    7400278: Classic_16_Window_F|Classic_16_Window_B|Take 001|BaseLayer
+    7400280: Classic_16_Window_F|Classic_16_Window_F|Take 001|BaseLayer
+    7400282: Classic_16_Window_F|Classic_16_Window_LB|Take 001|BaseLayer
+    7400284: Classic_16_Window_F|Classic_16_Window_LF|Take 001|BaseLayer
+    7400286: Classic_16_Window_F|Classic_16_Window_RB|Take 001|BaseLayer
+    7400288: Classic_16_Window_F|Classic_16_Window_RF|Take 001|BaseLayer
+    7400290: Classic_16_Window_RF|Classic_16_Body|Take 001|BaseLayer
+    7400292: Classic_16_Window_RF|Classic_16_Dashboard|Take 001|BaseLayer
+    7400294: Classic_16_Window_RF|Classic_16_Door_L|Take 001|BaseLayer
+    7400296: Classic_16_Window_RF|Classic_16_Door_R|Take 001|BaseLayer
+    7400298: Classic_16_Window_RF|Classic_16_Hood|Take 001|BaseLayer
+    7400300: Classic_16_Window_RF|Classic_16_LightGlass_L|Take 001|BaseLayer
+    7400302: Classic_16_Window_RF|Classic_16_LightGlass_R|Take 001|BaseLayer
+    7400304: Classic_16_Window_RF|Classic_16_Roof|Take 001|BaseLayer
+    7400306: Classic_16_Window_RF|Classic_16_Taillights|Take 001|BaseLayer
+    7400308: Classic_16_Window_RF|Classic_16_Trunk|Take 001|BaseLayer
+    7400310: Classic_16_Window_RF|Classic_16_Window_B|Take 001|BaseLayer
+    7400312: Classic_16_Window_RF|Classic_16_Window_F|Take 001|BaseLayer
+    7400314: Classic_16_Window_RF|Classic_16_Window_LB|Take 001|BaseLayer
+    7400316: Classic_16_Window_RF|Classic_16_Window_LF|Take 001|BaseLayer
+    7400318: Classic_16_Window_RF|Classic_16_Window_RB|Take 001|BaseLayer
+    7400320: Classic_16_Window_RF|Classic_16_Window_RF|Take 001|BaseLayer
+    7400322: Classic_16_Window_RB|Classic_16_Body|Take 001|BaseLayer
+    7400324: Classic_16_Window_RB|Classic_16_Dashboard|Take 001|BaseLayer
+    7400326: Classic_16_Window_RB|Classic_16_Door_L|Take 001|BaseLayer
+    7400328: Classic_16_Window_RB|Classic_16_Door_R|Take 001|BaseLayer
+    7400330: Classic_16_Window_RB|Classic_16_Hood|Take 001|BaseLayer
+    7400332: Classic_16_Window_RB|Classic_16_LightGlass_L|Take 001|BaseLayer
+    7400334: Classic_16_Window_RB|Classic_16_LightGlass_R|Take 001|BaseLayer
+    7400336: Classic_16_Window_RB|Classic_16_Roof|Take 001|BaseLayer
+    7400338: Classic_16_Window_RB|Classic_16_Taillights|Take 001|BaseLayer
+    7400340: Classic_16_Window_RB|Classic_16_Trunk|Take 001|BaseLayer
+    7400342: Classic_16_Window_RB|Classic_16_Window_B|Take 001|BaseLayer
+    7400344: Classic_16_Window_RB|Classic_16_Window_F|Take 001|BaseLayer
+    7400346: Classic_16_Window_RB|Classic_16_Window_LB|Take 001|BaseLayer
+    7400348: Classic_16_Window_RB|Classic_16_Window_LF|Take 001|BaseLayer
+    7400350: Classic_16_Window_RB|Classic_16_Window_RB|Take 001|BaseLayer
+    7400352: Classic_16_Window_RB|Classic_16_Window_RF|Take 001|BaseLayer
+    7400354: Classic_16_Window_B|Classic_16_Body|Take 001|BaseLayer
+    7400356: Classic_16_Window_B|Classic_16_Dashboard|Take 001|BaseLayer
+    7400358: Classic_16_Window_B|Classic_16_Door_L|Take 001|BaseLayer
+    7400360: Classic_16_Window_B|Classic_16_Door_R|Take 001|BaseLayer
+    7400362: Classic_16_Window_B|Classic_16_Hood|Take 001|BaseLayer
+    7400364: Classic_16_Window_B|Classic_16_LightGlass_L|Take 001|BaseLayer
+    7400366: Classic_16_Window_B|Classic_16_LightGlass_R|Take 001|BaseLayer
+    7400368: Classic_16_Window_B|Classic_16_Roof|Take 001|BaseLayer
+    7400370: Classic_16_Window_B|Classic_16_Taillights|Take 001|BaseLayer
+    7400372: Classic_16_Window_B|Classic_16_Trunk|Take 001|BaseLayer
+    7400374: Classic_16_Window_B|Classic_16_Window_B|Take 001|BaseLayer
+    7400376: Classic_16_Window_B|Classic_16_Window_F|Take 001|BaseLayer
+    7400378: Classic_16_Window_B|Classic_16_Window_LB|Take 001|BaseLayer
+    7400380: Classic_16_Window_B|Classic_16_Window_LF|Take 001|BaseLayer
+    7400382: Classic_16_Window_B|Classic_16_Window_RB|Take 001|BaseLayer
+    7400384: Classic_16_Window_B|Classic_16_Window_RF|Take 001|BaseLayer
+    7400386: Classic_16_Window_LB|Classic_16_Body|Take 001|BaseLayer
+    7400388: Classic_16_Window_LB|Classic_16_Dashboard|Take 001|BaseLayer
+    7400390: Classic_16_Window_LB|Classic_16_Door_L|Take 001|BaseLayer
+    7400392: Classic_16_Window_LB|Classic_16_Door_R|Take 001|BaseLayer
+    7400394: Classic_16_Window_LB|Classic_16_Hood|Take 001|BaseLayer
+    7400396: Classic_16_Window_LB|Classic_16_LightGlass_L|Take 001|BaseLayer
+    7400398: Classic_16_Window_LB|Classic_16_LightGlass_R|Take 001|BaseLayer
+    7400400: Classic_16_Window_LB|Classic_16_Roof|Take 001|BaseLayer
+    7400402: Classic_16_Window_LB|Classic_16_Taillights|Take 001|BaseLayer
+    7400404: Classic_16_Window_LB|Classic_16_Trunk|Take 001|BaseLayer
+    7400406: Classic_16_Window_LB|Classic_16_Window_B|Take 001|BaseLayer
+    7400408: Classic_16_Window_LB|Classic_16_Window_F|Take 001|BaseLayer
+    7400410: Classic_16_Window_LB|Classic_16_Window_LB|Take 001|BaseLayer
+    7400412: Classic_16_Window_LB|Classic_16_Window_LF|Take 001|BaseLayer
+    7400414: Classic_16_Window_LB|Classic_16_Window_RB|Take 001|BaseLayer
+    7400416: Classic_16_Window_LB|Classic_16_Window_RF|Take 001|BaseLayer
+    7400418: Classic_16_Window_LF|Classic_16_Body|Take 001|BaseLayer
+    7400420: Classic_16_Window_LF|Classic_16_Dashboard|Take 001|BaseLayer
+    7400422: Classic_16_Window_LF|Classic_16_Door_L|Take 001|BaseLayer
+    7400424: Classic_16_Window_LF|Classic_16_Door_R|Take 001|BaseLayer
+    7400426: Classic_16_Window_LF|Classic_16_Hood|Take 001|BaseLayer
+    7400428: Classic_16_Window_LF|Classic_16_LightGlass_L|Take 001|BaseLayer
+    7400430: Classic_16_Window_LF|Classic_16_LightGlass_R|Take 001|BaseLayer
+    7400432: Classic_16_Window_LF|Classic_16_Roof|Take 001|BaseLayer
+    7400434: Classic_16_Window_LF|Classic_16_Taillights|Take 001|BaseLayer
+    7400436: Classic_16_Window_LF|Classic_16_Trunk|Take 001|BaseLayer
+    7400438: Classic_16_Window_LF|Classic_16_Window_B|Take 001|BaseLayer
+    7400440: Classic_16_Window_LF|Classic_16_Window_F|Take 001|BaseLayer
+    7400442: Classic_16_Window_LF|Classic_16_Window_LB|Take 001|BaseLayer
+    7400444: Classic_16_Window_LF|Classic_16_Window_LF|Take 001|BaseLayer
+    7400446: Classic_16_Window_LF|Classic_16_Window_RB|Take 001|BaseLayer
+    7400448: Classic_16_Window_LF|Classic_16_Window_RF|Take 001|BaseLayer
+    7400450: Classic_16_LightGlass_R|Classic_16_Body|Take 001|BaseLayer
+    7400452: Classic_16_LightGlass_R|Classic_16_Dashboard|Take 001|BaseLayer
+    7400454: Classic_16_LightGlass_R|Classic_16_Door_L|Take 001|BaseLayer
+    7400456: Classic_16_LightGlass_R|Classic_16_Door_R|Take 001|BaseLayer
+    7400458: Classic_16_LightGlass_R|Classic_16_Hood|Take 001|BaseLayer
+    7400460: Classic_16_LightGlass_R|Classic_16_LightGlass_L|Take 001|BaseLayer
+    7400462: Classic_16_LightGlass_R|Classic_16_LightGlass_R|Take 001|BaseLayer
+    7400464: Classic_16_LightGlass_R|Classic_16_Roof|Take 001|BaseLayer
+    7400466: Classic_16_LightGlass_R|Classic_16_Taillights|Take 001|BaseLayer
+    7400468: Classic_16_LightGlass_R|Classic_16_Trunk|Take 001|BaseLayer
+    7400470: Classic_16_LightGlass_R|Classic_16_Window_B|Take 001|BaseLayer
+    7400472: Classic_16_LightGlass_R|Classic_16_Window_F|Take 001|BaseLayer
+    7400474: Classic_16_LightGlass_R|Classic_16_Window_LB|Take 001|BaseLayer
+    7400476: Classic_16_LightGlass_R|Classic_16_Window_LF|Take 001|BaseLayer
+    7400478: Classic_16_LightGlass_R|Classic_16_Window_RB|Take 001|BaseLayer
+    7400480: Classic_16_LightGlass_R|Classic_16_Window_RF|Take 001|BaseLayer
+    7400482: Classic_16_LightGlass_L|Classic_16_Body|Take 001|BaseLayer
+    7400484: Classic_16_LightGlass_L|Classic_16_Dashboard|Take 001|BaseLayer
+    7400486: Classic_16_LightGlass_L|Classic_16_Door_L|Take 001|BaseLayer
+    7400488: Classic_16_LightGlass_L|Classic_16_Door_R|Take 001|BaseLayer
+    7400490: Classic_16_LightGlass_L|Classic_16_Hood|Take 001|BaseLayer
+    7400492: Classic_16_LightGlass_L|Classic_16_LightGlass_L|Take 001|BaseLayer
+    7400494: Classic_16_LightGlass_L|Classic_16_LightGlass_R|Take 001|BaseLayer
+    7400496: Classic_16_LightGlass_L|Classic_16_Roof|Take 001|BaseLayer
+    7400498: Classic_16_LightGlass_L|Classic_16_Taillights|Take 001|BaseLayer
+    7400500: Classic_16_LightGlass_L|Classic_16_Trunk|Take 001|BaseLayer
+    7400502: Classic_16_LightGlass_L|Classic_16_Window_B|Take 001|BaseLayer
+    7400504: Classic_16_LightGlass_L|Classic_16_Window_F|Take 001|BaseLayer
+    7400506: Classic_16_LightGlass_L|Classic_16_Window_LB|Take 001|BaseLayer
+    7400508: Classic_16_LightGlass_L|Classic_16_Window_LF|Take 001|BaseLayer
+    7400510: Classic_16_LightGlass_L|Classic_16_Window_RB|Take 001|BaseLayer
+    7400512: Classic_16_LightGlass_L|Classic_16_Window_RF|Take 001|BaseLayer
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.25
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+    normalCalculationMode: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,224 @@
+fileFormatVersion: 2
+guid: 866556bc94491dc4aa0310b7ecd5683d
+timeCreated: 1711702489
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: crossroads_one_pavement.001
+    100002: crossroads_one_pavement.002
+    100004: Cube.001
+    100006: Cube.002
+    100008: Cube.009
+    100010: //RootNode
+    100012: lada_samara_cars_cherry.003
+    100014: lada_samara_cars_cherry.004
+    100016: long_road_no_pavement_crosswalk.001
+    100018: long_road_no_pavement_crosswalk.002
+    100020: long_road_no_pavement_crosswalk.003
+    100022: long_road_one_pavement_crosswalk.001
+    100024: long_road_one_pavement_crosswalk.002
+    100026: long_road_one_pavement_crosswalk.003
+    100028: marshrutka_yellow
+    100030: marshrutka_yellow.001
+    100032: pilar1_crosswalk_1.001
+    100034: pilar1_crosswalk_1.002
+    100036: pilar1_crosswalk_1.003
+    100038: pilar1_crosswalk_1.004
+    100040: pilar1_crosswalk_1.005
+    100042: pilar2_road_forvard_left_2.001
+    100044: pilar2_road_forvard_left_2.002
+    100046: stop_pilar.001
+    100048: stop_pilar.002
+    100050: Uaz_white.002
+    100052: Uaz_white.003
+    100054: wolga_cars_blue.002
+    100056: wolga_cars_blue.003
+    400000: crossroads_one_pavement.001
+    400002: crossroads_one_pavement.002
+    400004: Cube.001
+    400006: Cube.002
+    400008: Cube.009
+    400010: //RootNode
+    400012: lada_samara_cars_cherry.003
+    400014: lada_samara_cars_cherry.004
+    400016: long_road_no_pavement_crosswalk.001
+    400018: long_road_no_pavement_crosswalk.002
+    400020: long_road_no_pavement_crosswalk.003
+    400022: long_road_one_pavement_crosswalk.001
+    400024: long_road_one_pavement_crosswalk.002
+    400026: long_road_one_pavement_crosswalk.003
+    400028: marshrutka_yellow
+    400030: marshrutka_yellow.001
+    400032: pilar1_crosswalk_1.001
+    400034: pilar1_crosswalk_1.002
+    400036: pilar1_crosswalk_1.003
+    400038: pilar1_crosswalk_1.004
+    400040: pilar1_crosswalk_1.005
+    400042: pilar2_road_forvard_left_2.001
+    400044: pilar2_road_forvard_left_2.002
+    400046: stop_pilar.001
+    400048: stop_pilar.002
+    400050: Uaz_white.002
+    400052: Uaz_white.003
+    400054: wolga_cars_blue.002
+    400056: wolga_cars_blue.003
+    2300000: crossroads_one_pavement.001
+    2300002: crossroads_one_pavement.002
+    2300004: Cube.001
+    2300006: Cube.002
+    2300008: Cube.009
+    2300010: lada_samara_cars_cherry.003
+    2300012: lada_samara_cars_cherry.004
+    2300014: long_road_no_pavement_crosswalk.001
+    2300016: long_road_no_pavement_crosswalk.002
+    2300018: long_road_no_pavement_crosswalk.003
+    2300020: long_road_one_pavement_crosswalk.001
+    2300022: long_road_one_pavement_crosswalk.002
+    2300024: long_road_one_pavement_crosswalk.003
+    2300026: marshrutka_yellow
+    2300028: marshrutka_yellow.001
+    2300030: pilar1_crosswalk_1.001
+    2300032: pilar1_crosswalk_1.002
+    2300034: pilar1_crosswalk_1.003
+    2300036: pilar1_crosswalk_1.004
+    2300038: pilar1_crosswalk_1.005
+    2300040: pilar2_road_forvard_left_2.001
+    2300042: pilar2_road_forvard_left_2.002
+    2300044: stop_pilar.001
+    2300046: stop_pilar.002
+    2300048: Uaz_white.002
+    2300050: Uaz_white.003
+    2300052: wolga_cars_blue.002
+    2300054: wolga_cars_blue.003
+    3300000: crossroads_one_pavement.001
+    3300002: crossroads_one_pavement.002
+    3300004: Cube.001
+    3300006: Cube.002
+    3300008: Cube.009
+    3300010: lada_samara_cars_cherry.003
+    3300012: lada_samara_cars_cherry.004
+    3300014: long_road_no_pavement_crosswalk.001
+    3300016: long_road_no_pavement_crosswalk.002
+    3300018: long_road_no_pavement_crosswalk.003
+    3300020: long_road_one_pavement_crosswalk.001
+    3300022: long_road_one_pavement_crosswalk.002
+    3300024: long_road_one_pavement_crosswalk.003
+    3300026: marshrutka_yellow
+    3300028: marshrutka_yellow.001
+    3300030: pilar1_crosswalk_1.001
+    3300032: pilar1_crosswalk_1.002
+    3300034: pilar1_crosswalk_1.003
+    3300036: pilar1_crosswalk_1.004
+    3300038: pilar1_crosswalk_1.005
+    3300040: pilar2_road_forvard_left_2.001
+    3300042: pilar2_road_forvard_left_2.002
+    3300044: stop_pilar.001
+    3300046: stop_pilar.002
+    3300048: Uaz_white.002
+    3300050: Uaz_white.003
+    3300052: wolga_cars_blue.002
+    3300054: wolga_cars_blue.003
+    4300000: Cube.009
+    4300002: lada_samara_cars_cherry.003
+    4300004: lada_samara_cars_cherry.004
+    4300006: wolga_cars_blue.002
+    4300008: wolga_cars_blue.003
+    4300010: Uaz_white.002
+    4300012: Uaz_white.003
+    4300014: crossroads_one_pavement.001
+    4300016: long_road_no_pavement_crosswalk.001
+    4300018: long_road_one_pavement_crosswalk.001
+    4300020: long_road_no_pavement_crosswalk.002
+    4300022: long_road_one_pavement_crosswalk.002
+    4300024: crossroads_one_pavement.002
+    4300026: long_road_one_pavement_crosswalk.003
+    4300028: long_road_no_pavement_crosswalk.003
+    4300030: marshrutka_yellow
+    4300032: Cube.001
+    4300034: marshrutka_yellow.001
+    4300036: Cube.002
+    4300038: pilar2_road_forvard_left_2.001
+    4300040: pilar1_crosswalk_1.001
+    4300042: stop_pilar.001
+    4300044: pilar1_crosswalk_1.002
+    4300046: pilar1_crosswalk_1.003
+    4300048: pilar1_crosswalk_1.004
+    4300050: pilar2_road_forvard_left_2.002
+    4300052: pilar1_crosswalk_1.005
+    4300054: stop_pilar.002
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

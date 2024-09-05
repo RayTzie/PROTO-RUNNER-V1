@@ -62,7 +62,11 @@
      <Compile Include="Assets\Scripts\SimpleCarController.cs" />
      <Compile Include="Assets\Scripts\Speedometer.cs" />
      <Compile Include="Assets\Scripts\SteeringWheel_Controller.cs" />
+     <Compile Include="Assets\Scripts\Swipe_Menu.cs" />
      <Compile Include="Assets\Scripts\Transmission_Controller.cs" />
+     <Compile Include="Assets\Tempo Props\OnTriggerEnterAndExit.cs" />
+     <Compile Include="Assets\Tempo Props\OverSpeeding.cs" />
+     <None Include="Assets\Skyboxes\_skybox info.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

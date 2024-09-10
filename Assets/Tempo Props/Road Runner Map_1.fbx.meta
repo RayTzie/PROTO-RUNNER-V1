@@ -1,0 +1,263 @@
+fileFormatVersion: 2
+guid: 3239030bc9f83914a963521365f5f88c
+timeCreated: 1725512366
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: EXPORT_GOOGLE_SAT_WM
+    100002: //RootNode
+    100004: Plane.001
+    100006: Roads
+    100008: Plane
+    100010: Bending Pattern
+    100012: Cube
+    100014: Cube.001
+    100016: Roads.001
+    100018: Second Slope Bend
+    100020: Fifth Slope
+    100022: Fourth Slope
+    100024: Third Slope
+    100026: NurbsPath
+    100028: Vert
+    100030: Cube_MeshPart0
+    100032: Cube_MeshPart1
+    100034: Cube_MeshPart2
+    100036: Cube_MeshPart3
+    100038: Cube_MeshPart4
+    100040: Copy Slope
+    100042: First Slope
+    100044: Gate Road Copy
+    100046: Second
+    100048: Second Slope Road
+    100050: 'Third Slope '
+    100052: Vert.003
+    100054: Vert.003_MeshPart0
+    100056: Vert.003_MeshPart1
+    100058: Vert.003_MeshPart2
+    100060: Vert.003_MeshPart3
+    100062: Vert.003_MeshPart4
+    100064: Road Runner map 1
+    100066: Road Runner map 1_MeshPart0
+    100068: Road Runner map 1_MeshPart1
+    100070: Road Runner map 1_MeshPart2
+    100072: Road Runner map 1_MeshPart3
+    100074: Road Runner map 1_MeshPart4
+    400000: EXPORT_GOOGLE_SAT_WM
+    400002: //RootNode
+    400004: Plane.001
+    400006: Roads
+    400008: Plane
+    400010: Bending Pattern
+    400012: Cube
+    400014: Cube.001
+    400016: Roads.001
+    400018: Second Slope Bend
+    400020: Fifth Slope
+    400022: Fourth Slope
+    400024: Third Slope
+    400026: NurbsPath
+    400028: Vert
+    400030: Cube_MeshPart0
+    400032: Cube_MeshPart1
+    400034: Cube_MeshPart2
+    400036: Cube_MeshPart3
+    400038: Cube_MeshPart4
+    400040: Copy Slope
+    400042: First Slope
+    400044: Gate Road Copy
+    400046: Second
+    400048: Second Slope Road
+    400050: 'Third Slope '
+    400052: Vert.003
+    400054: Vert.003_MeshPart0
+    400056: Vert.003_MeshPart1
+    400058: Vert.003_MeshPart2
+    400060: Vert.003_MeshPart3
+    400062: Vert.003_MeshPart4
+    400064: Road Runner map 1
+    400066: Road Runner map 1_MeshPart0
+    400068: Road Runner map 1_MeshPart1
+    400070: Road Runner map 1_MeshPart2
+    400072: Road Runner map 1_MeshPart3
+    400074: Road Runner map 1_MeshPart4
+    2300000: EXPORT_GOOGLE_SAT_WM
+    2300002: Plane.001
+    2300004: Roads
+    2300006: Plane
+    2300008: Bending Pattern
+    2300010: Cube
+    2300012: Cube.001
+    2300014: Roads.001
+    2300016: Second Slope Bend
+    2300018: Fifth Slope
+    2300020: Fourth Slope
+    2300022: Third Slope
+    2300024: NurbsPath
+    2300026: Vert
+    2300028: Cube_MeshPart0
+    2300030: Cube_MeshPart1
+    2300032: Cube_MeshPart2
+    2300034: Cube_MeshPart3
+    2300036: Cube_MeshPart4
+    2300038: Copy Slope
+    2300040: First Slope
+    2300042: Gate Road Copy
+    2300044: Second
+    2300046: Second Slope Road
+    2300048: 'Third Slope '
+    2300050: Vert.003_MeshPart0
+    2300052: Vert.003_MeshPart1
+    2300054: Vert.003_MeshPart2
+    2300056: Vert.003_MeshPart3
+    2300058: Vert.003_MeshPart4
+    2300060: Road Runner map 1_MeshPart0
+    2300062: Road Runner map 1_MeshPart1
+    2300064: Road Runner map 1_MeshPart2
+    2300066: Road Runner map 1_MeshPart3
+    2300068: Road Runner map 1_MeshPart4
+    3300000: EXPORT_GOOGLE_SAT_WM
+    3300002: Plane.001
+    3300004: Roads
+    3300006: Plane
+    3300008: Bending Pattern
+    3300010: Cube
+    3300012: Cube.001
+    3300014: Roads.001
+    3300016: Second Slope Bend
+    3300018: Fifth Slope
+    3300020: Fourth Slope
+    3300022: Third Slope
+    3300024: NurbsPath
+    3300026: Vert
+    3300028: Cube_MeshPart0
+    3300030: Cube_MeshPart1
+    3300032: Cube_MeshPart2
+    3300034: Cube_MeshPart3
+    3300036: Cube_MeshPart4
+    3300038: Copy Slope
+    3300040: First Slope
+    3300042: Gate Road Copy
+    3300044: Second
+    3300046: Second Slope Road
+    3300048: 'Third Slope '
+    3300050: Vert.003_MeshPart0
+    3300052: Vert.003_MeshPart1
+    3300054: Vert.003_MeshPart2
+    3300056: Vert.003_MeshPart3
+    3300058: Vert.003_MeshPart4
+    3300060: Road Runner map 1_MeshPart0
+    3300062: Road Runner map 1_MeshPart1
+    3300064: Road Runner map 1_MeshPart2
+    3300066: Road Runner map 1_MeshPart3
+    3300068: Road Runner map 1_MeshPart4
+    4300000: Plane.001
+    4300002: EXPORT_GOOGLE_SAT_WM
+    4300004: Roads
+    4300006: Plane
+    4300008: Cube
+    4300010: Bending Pattern
+    4300012: Cube.001
+    4300014: Second Slope Bend
+    4300016: Roads.001
+    4300018: Third Slope
+    4300020: Fourth Slope
+    4300022: Fifth Slope
+    4300024: Vert
+    4300026: NurbsPath
+    4300028: Cube_MeshPart0
+    4300030: Cube_MeshPart1
+    4300032: Cube_MeshPart2
+    4300034: Cube_MeshPart3
+    4300036: Cube_MeshPart4
+    4300038: First Slope
+    4300040: Second
+    4300042: Second Slope Road
+    4300044: 'Third Slope '
+    4300046: Copy Slope
+    4300048: Gate Road Copy
+    4300050: Vert.003_MeshPart0
+    4300052: Vert.003_MeshPart1
+    4300054: Vert.003_MeshPart2
+    4300056: Vert.003_MeshPart3
+    4300058: Vert.003_MeshPart4
+    4300060: Road Runner map 1_MeshPart0
+    4300062: Road Runner map 1_MeshPart1
+    4300064: Road Runner map 1_MeshPart2
+    4300066: Road Runner map 1_MeshPart3
+    4300068: Road Runner map 1_MeshPart4
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

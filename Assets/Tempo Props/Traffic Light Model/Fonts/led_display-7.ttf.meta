@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 488ba2c5e7a90b3409b9772b7f4068ed
+timeCreated: 1726790167
+licenseType: Pro
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: LED Display7
+  fontNames:
+  - LED Display7
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

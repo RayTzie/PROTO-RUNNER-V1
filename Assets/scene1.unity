@@ -3089,7 +3089,7 @@ MonoBehaviour:
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
-            m_StringArgument: map2
+            m_StringArgument: scene_map2
             m_BoolArgument: 0
           m_CallState: 2
       m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
@@ -4732,7 +4732,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 483110831}
   m_Direction: 0
   m_Value: 0
-  m_Size: 0.8000001
+  m_Size: 0
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:

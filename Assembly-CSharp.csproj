@@ -66,6 +66,7 @@
      <Compile Include="Assets\Scripts\Transmission_Controller.cs" />
      <Compile Include="Assets\Tempo Props\OnTriggerEnterAndExit.cs" />
      <Compile Include="Assets\Tempo Props\OverSpeeding.cs" />
+     <Compile Include="Assets\Tempo Props\Traffic Light Model\Script\TrafficLightController.cs" />
      <None Include="Assets\Skyboxes\_skybox info.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>

@@ -7,6 +7,7 @@ public class SimpleCarController : MonoBehaviour {
 
  	public SteeringWheel_Controller SteeringAngle;
  	public Pedals_Controller TransmissionState, BreakValue,BreakInput,Speed;
+ 	public OverSpeeding SpeedMeter;
  	//public Speedometer Speed;
  
 
@@ -35,6 +36,7 @@ public class SimpleCarController : MonoBehaviour {
 		  SteeringAngle = GameObject.FindWithTag ("Steering Wheel").GetComponent<SteeringWheel_Controller>();
 		  TransmissionState = GameObject.FindWithTag ("Pedals").GetComponent<Pedals_Controller>();
 		  Speed = GameObject.FindWithTag ("Pedals").GetComponent<Pedals_Controller>();
+		  SpeedMeter = GameObject.FindWithTag ("Player").GetComponent<OverSpeeding>();
 		  BreakValue = GameObject.FindWithTag ("Pedals").GetComponent<Pedals_Controller>();
 		  BreakInput = GameObject.FindWithTag ("Pedals").GetComponent<Pedals_Controller>();
 		 
@@ -59,7 +61,7 @@ public class SimpleCarController : MonoBehaviour {
 		//frontPassengerW.motorTorque = m_verticalInput * motorForce;
 		
 		// The motor force value is return by maxSpeed variable from Speedometer script.
-       motorForce  =  Speed.SpeedometerValue();
+       motorForce  =  10000f;
        //Debug.Log(motorForce);
        
     	// The speed value is used to trigger/update the speed on speedometer script.
@@ -68,7 +70,7 @@ public class SimpleCarController : MonoBehaviour {
 		rearDriverW.motorTorque = m_verticalInput * motorForce;
 		rearPassengerW.motorTorque = m_verticalInput * motorForce;
 
-		speed = rearDriverW.rpm * rearDriverW.radius * 2 * Mathf.PI * 60 / 1000;
+		speed = SpeedMeter.GetSpeed();
 
 
 	}

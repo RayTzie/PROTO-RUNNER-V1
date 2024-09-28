@@ -23,7 +23,7 @@ public class Pedals_Controller : MonoBehaviour {
 		 TransmissionValue = GameObject.FindWithTag ("Transmission").GetComponent<Transmission_Controller>();
 	 	  speed = 0f;
 	 	  breakevalue =0f;
-          speedMax = 200f;
+          speedMax = 3000f;
 	}
 	
 	// On trigger event on Pointer Down 

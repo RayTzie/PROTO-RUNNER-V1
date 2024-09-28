@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class Speedometer : MonoBehaviour {
     public Pedals_Controller SpeedValue;
-    public SimpleCarController SpeedometerValue;
+    public OverSpeeding SpeedometerValue;
     private const float MAX_SPEED_ANGLE = -20;
     private const float ZERO_SPEED_ANGLE = 230;
     public Transmission_Controller TransmissionValue;
@@ -19,13 +19,14 @@ public class Speedometer : MonoBehaviour {
 
     public void Awake() {
         SpeedValue = GameObject.FindWithTag ("Pedals").GetComponent<Pedals_Controller>();
-        SpeedometerValue = GameObject.FindWithTag("Player").GetComponent<SimpleCarController>();
+       // SpeedValue = GameObject.FindWithTag ("Player").GetComponent<OverSpeeding>();
+        SpeedometerValue = GameObject.FindWithTag("Player").GetComponent<OverSpeeding>();
         needleTranform = transform.Find("needle");
         speedLabelTemplateTransform = transform.Find("speedLabelTemplate");
         speedLabelTemplateTransform.gameObject.SetActive(false);
 
         speed = 0f;
-        speedMax = 200f;
+        speedMax = 3000f;
 
         CreateSpeedLabels();
     }
@@ -34,10 +35,10 @@ public class Speedometer : MonoBehaviour {
      
      // The speed value is return by speed variable from Pedals_Controller script.
      
-    speed =SpeedometerValue.GetSpeedometer();
+    speed =SpeedometerValue.GetSpeed();
    
 
-        //speed += 30f * Time.deltaTime;
+        //speed += 1000f * Time.deltaTime;
         //if (speed > speedMax) speed = speedMax;
        speed = Mathf.Clamp(speed, 0f, speedMax);
         needleTranform.eulerAngles = new Vector3(0, 0, GetSpeedRotation());

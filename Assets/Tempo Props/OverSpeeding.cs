@@ -11,7 +11,7 @@ public class OverSpeeding : MonoBehaviour
     {
         // Calculate the car's current speed (example assumes you're using a rigidbody for physics)
         Rigidbody rb = GetComponent<Rigidbody>();
-        speed = rb.velocity.magnitude * 3.6f; // Convert to km/h if velocity is in meters/second
+        speed = rb.velocity.magnitude * 5f; // Convert to km/h if velocity is in meters/second
 
         // Check if the speed exceeds the threshold
         if (speed > speedThreshold)
@@ -22,5 +22,9 @@ public class OverSpeeding : MonoBehaviour
         {
             speedCanvas.gameObject.SetActive(false); // Hide the canvas
         }
+    }
+
+    public float GetSpeed(){
+       return speed;
     }
 }

@@ -12,21 +12,21 @@ public class Speedometer : MonoBehaviour {
     private Transform needleTranform;
     private Transform speedLabelTemplateTransform;
 
-    public float speedMax;
+    public float speedMax=200;
     public float speed;
     public bool isAccelerating;
     public float set_forward;
 
     public void Awake() {
         SpeedValue = GameObject.FindWithTag ("Pedals").GetComponent<Pedals_Controller>();
-       // SpeedValue = GameObject.FindWithTag ("Player").GetComponent<OverSpeeding>();
+       //SpeedValue = GameObject.FindWithTag ("Player").GetComponent<OverSpeeding>();
         SpeedometerValue = GameObject.FindWithTag("Player").GetComponent<OverSpeeding>();
         needleTranform = transform.Find("needle");
         speedLabelTemplateTransform = transform.Find("speedLabelTemplate");
         speedLabelTemplateTransform.gameObject.SetActive(false);
 
         speed = 0f;
-        speedMax = 3000f;
+        speedMax = 200;
 
         CreateSpeedLabels();
     }
@@ -40,7 +40,7 @@ public class Speedometer : MonoBehaviour {
 
         //speed += 1000f * Time.deltaTime;
         //if (speed > speedMax) speed = speedMax;
-       speed = Mathf.Clamp(speed, 0f, speedMax);
+        speed = Mathf.Clamp(speed, 0f, speedMax);
         needleTranform.eulerAngles = new Vector3(0, 0, GetSpeedRotation());
     }
 

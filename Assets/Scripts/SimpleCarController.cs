@@ -61,7 +61,7 @@ public class SimpleCarController : MonoBehaviour {
 		//frontPassengerW.motorTorque = m_verticalInput * motorForce;
 		
 		// The motor force value is return by maxSpeed variable from Speedometer script.
-       motorForce  =  10000f;
+       motorForce  = 350;
        //Debug.Log(motorForce);
        
     	// The speed value is used to trigger/update the speed on speedometer script.

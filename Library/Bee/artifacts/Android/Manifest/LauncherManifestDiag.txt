@@ -1,0 +1,5 @@
+Using template 'C:/Program Files/Unity 2022.1.1f1/Editor/Data/PlaybackEngines/AndroidPlayer\Apk\LauncherManifest.xml'
+
+@drawable/app_banner resource was set because:
+	Android TV Compatability was enabled
+	Android Banner was enabled

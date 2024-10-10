@@ -31,7 +31,7 @@ public class ScoreUpdater : MonoBehaviour
     {
         if (playerScoreText != null)
         {
-            playerScoreText.text = "Score: " + userProfile.score.ToString();
+            playerScoreText.text = userProfile.score.ToString();
         }
     }
 

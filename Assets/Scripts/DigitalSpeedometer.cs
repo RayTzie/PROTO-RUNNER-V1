@@ -35,7 +35,7 @@ public class DigitalSpeedometer : MonoBehaviour
                 float speed = Mathf.Abs(speedometerValue.GetSpeedometer());
 
                 // Update the text to display the speed
-                speedText.text = Mathf.Round(speed).ToString() + " km/h";
+                speedText.text = "Speed: "+ Mathf.Round(speed).ToString() + " km/h";
             }
             else
             {

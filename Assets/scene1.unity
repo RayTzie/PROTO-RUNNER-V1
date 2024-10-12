@@ -1209,8 +1209,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1644538025}
   m_HandleRect: {fileID: 1644538024}
   m_Direction: 2
-  m_Value: 1.0000001
-  m_Size: 0.361658
+  m_Value: 1
+  m_Size: 0.36212686
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -3376,6 +3376,11 @@ MonoBehaviour:
   playerNameText: {fileID: 582500387}
   playerPictureImage: {fileID: 1537870255}
   playerScoreText: {fileID: 959627739}
+  roadTrafficSignScoreText: {fileID: 302907776}
+  pavementMarkingSignScoreText: {fileID: 886116753}
+  drivingOnTheRoadSignScoreText: {fileID: 895957311}
+  totalDriveSignScoreText: {fileID: 1832658545}
+  readableSignScoreText: {fileID: 2083875864}
 --- !u!1 &368386614
 GameObject:
   m_ObjectHideFlags: 0
@@ -4512,7 +4517,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &577200277
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5253,8 +5258,8 @@ RectTransform:
   m_Father: {fileID: 777505885}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -8384,7 +8389,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0.5, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -8973,7 +8978,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.038251366, y: 0}
   m_AnchorMax: {x: 0.9781421, y: 0.89000005}
-  m_AnchoredPosition: {x: -7, y: 21.999918}
+  m_AnchoredPosition: {x: -7, y: 21.999973}
   m_SizeDelta: {x: 11, y: 374.28183}
   m_Pivot: {x: 0, y: 1}
 --- !u!1 &1208266712
@@ -9956,6 +9961,11 @@ MonoBehaviour:
   playerNameText: {fileID: 13767852}
   playerPictureImage: {fileID: 1682015210}
   playerScoreText: {fileID: 414156557}
+  roadTrafficSignScoreText: {fileID: 0}
+  pavementMarkingSignScoreText: {fileID: 0}
+  drivingOnTheRoadSignScoreText: {fileID: 0}
+  totalDriveSignScoreText: {fileID: 0}
+  readableSignScoreText: {fileID: 0}
 --- !u!1 &1297965071
 GameObject:
   m_ObjectHideFlags: 0

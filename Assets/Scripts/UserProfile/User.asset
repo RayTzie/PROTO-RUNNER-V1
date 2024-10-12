@@ -12,6 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 871424dff82b8c849b5fcf56ea0ce9c7, type: 3}
   m_Name: User
   m_EditorClassIdentifier: 
-  playerName: Lelouch Britannia
+  playerName: 'Lelouch '
   playerPicture: {fileID: 21300000, guid: 92cbdb1be8234d049a5ee5c423813f68, type: 3}
-  score: -30
+  score: 100
+  roadtrafficsignscore: 100
+  pavementmarkingsignscore: 100
+  drivingontheroadsignscore: 100
+  totaldrivesignscore: 0
+  readablesignscore: 0

@@ -36,7 +36,7 @@ public class UserProfileUI : MonoBehaviour
             roadTrafficSignScoreText.text = userProfile.roadtrafficsignscore.ToString() + "%";
             pavementMarkingSignScoreText.text = userProfile.pavementmarkingsignscore.ToString() + "%";
             drivingOnTheRoadSignScoreText.text = userProfile.drivingontheroadsignscore.ToString()+ "%";
-            totalDriveSignScoreText.text = userProfile.totaldrivesignscore.ToString();
+            totalDriveSignScoreText.text = userProfile.totaldrivesignscore.ToString() + "%";
             readableSignScoreText.text = userProfile.readablesignscore.ToString()+ "%";
         }
     }

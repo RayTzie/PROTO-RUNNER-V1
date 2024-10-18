@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerName: 'Lelouch '
   playerPicture: {fileID: 21300000, guid: 92cbdb1be8234d049a5ee5c423813f68, type: 3}
-  score: 100
-  roadtrafficsignscore: 100
+  score: 86
+  roadtrafficsignscore: 86
   pavementmarkingsignscore: 100
   drivingontheroadsignscore: 100
-  totaldrivesignscore: 0
+  totaldrivesignscore: 1
   readablesignscore: 0

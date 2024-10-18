@@ -18,6 +18,12 @@ public class UserProfile : ScriptableObject
         score -= scoreIncrement;
     }
 
+        // Function to update the Road Traffic sign Score
+    public void UpdateRoadTrafficSignScore(int RoadTrafficSignscoreIncrement)
+    {
+        roadtrafficsignscore -= RoadTrafficSignscoreIncrement;
+    }
+
     // Function to reset all values
     public void ResetValues()
     {

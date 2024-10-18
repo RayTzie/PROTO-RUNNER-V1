@@ -372,6 +372,8 @@
 "Assets/Scripts/Transmission_Controller.cs"
 "Assets/Scripts/UserProfile/MissionStatusManager.cs"
 "Assets/Scripts/UserProfile/MissionStatusTrigger.cs"
+"Assets/Scripts/UserProfile/OverSpeedingDeduction.cs"
+"Assets/Scripts/UserProfile/ScoreAnimation.cs"
 "Assets/Scripts/UserProfile/ScoreUpdater.cs"
 "Assets/Scripts/UserProfile/TimeAccumulator.cs"
 "Assets/Scripts/UserProfile/UserProfile.cs"

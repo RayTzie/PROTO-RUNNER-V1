@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2022.1/staging' branch; Version is '2022.1.1f1 (53d13f540f71) revision 5493055'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'en' Physical Memory: 8065 MB
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 8065 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -15,7 +15,7 @@ C:/Users/Administrator/Desktop/Road Runner Unity 2022
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49822
+52050
 Successfully changed project path to: C:/Users/Administrator/Desktop/Road Runner Unity 2022
 C:/Users/Administrator/Desktop/Road Runner Unity 2022
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/Administrator/Desktop/Road Runner Unity 2022
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 154.21 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 156.25 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.1.1f1 (53d13f540f71)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity 2022.1.1f1/Editor/Data/Resources/UnitySubsystems
@@ -64,82 +64,82 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity 2022.1.1f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity 2022.1.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity 2022.1.1f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56188
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56920
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity 2022.1.1f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity 2022.1.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.008371 seconds.
+Registered in 0.009027 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 153.51 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 141.06 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.478 seconds
+- Completed reload, in  1.363 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1479ms)
-		BeginReloadAssembly (175ms)
+	ReloadAssembly (1364ms)
+		BeginReloadAssembly (133ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (1081ms)
-			LoadAssemblies (171ms)
+		EndReloadAssembly (1001ms)
+			LoadAssemblies (130ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (259ms)
-				TypeCache.Initialize (259ms)
-					TypeCache.ScanAssembly (255ms)
+			SetupTypeCache (237ms)
+				TypeCache.Initialize (236ms)
+					TypeCache.ScanAssembly (234ms)
 				ResolveRequiredComponents (1ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (63ms)
-			SetupLoadedEditorAssemblies (649ms)
+			RebuildScriptCaches (59ms)
+			SetupLoadedEditorAssemblies (597ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (124ms)
+				InitializePlatformSupportModulesInManaged (110ms)
 				SetLoadedEditorAssemblies (19ms)
-				RefreshPlugins (154ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (254ms)
-				ProcessInitializeOnLoadMethodAttributes (96ms)
+				RefreshPlugins (141ms)
+				BeforeProcessingInitializeOnLoad (3ms)
+				ProcessInitializeOnLoadAttributes (230ms)
+				ProcessInitializeOnLoadMethodAttributes (94ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.011882 seconds.
+Registered in 0.007781 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0.93 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.92 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.209 seconds
+- Completed reload, in  2.128 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2211ms)
-		BeginReloadAssembly (350ms)
+	ReloadAssembly (2129ms)
+		BeginReloadAssembly (343ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (13ms)
+			DisableScriptedObjects (19ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (149ms)
-		EndReloadAssembly (1637ms)
-			LoadAssemblies (155ms)
+			CreateAndSetChildDomain (154ms)
+		EndReloadAssembly (1546ms)
+			LoadAssemblies (133ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (500ms)
-				TypeCache.Initialize (492ms)
-					TypeCache.ScanAssembly (485ms)
-				ResolveRequiredComponents (8ms)
+			SetupTypeCache (473ms)
+				TypeCache.Initialize (462ms)
+					TypeCache.ScanAssembly (456ms)
+				ResolveRequiredComponents (11ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (115ms)
-			SetupLoadedEditorAssemblies (763ms)
+			RebuildScriptCaches (108ms)
+			SetupLoadedEditorAssemblies (709ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (28ms)
-				SetLoadedEditorAssemblies (14ms)
+				InitializePlatformSupportModulesInManaged (25ms)
+				SetLoadedEditorAssemblies (13ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (144ms)
-				ProcessInitializeOnLoadAttributes (502ms)
-				ProcessInitializeOnLoadMethodAttributes (63ms)
+				BeforeProcessingInitializeOnLoad (139ms)
+				ProcessInitializeOnLoadAttributes (462ms)
+				ProcessInitializeOnLoadMethodAttributes (60ms)
 				AfterProcessingInitializeOnLoad (10ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -148,13 +148,13 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Custom/ProhibitedAreaShader': fallback shader 'Transparent/Cutout' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 1.37 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 1.30 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3325 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 27 unused Assets / (194.2 KB). Loaded Objects now: 3805.
+Unloading 3335 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (194.2 KB). Loaded Objects now: 3823.
 Memory consumption went from 0.52 GB to 0.52 GB.
-Total: 5.530100 ms (FindLiveObjects: 0.563200 ms CreateObjectMapping: 0.435600 ms MarkObjects: 4.424300 ms  DeleteObjects: 0.104700 ms)
+Total: 8.767100 ms (FindLiveObjects: 1.092900 ms CreateObjectMapping: 1.381100 ms MarkObjects: 6.169700 ms  DeleteObjects: 0.113600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -168,123 +168,346 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 5627.675330 seconds.
-  path: Assets/Scripts/UserProfile/UserProfileUI.cs
-  artifactKey: Guid(90841ad31b08439418a8cb74a371f2b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/UserProfile/UserProfileUI.cs using Guid(90841ad31b08439418a8cb74a371f2b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7832ec3f432e0c63a0f4aacb74ceb948') in 0.020809 seconds 
+  Time since last request: 49525.981764 seconds.
+  path: Assets/Terrain Assets/Terrain Textures/PathWalk.psd
+  artifactKey: Guid(509d31545b6c4604a852939b74b49467) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain Assets/Terrain Textures/PathWalk.psd using Guid(509d31545b6c4604a852939b74b49467) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c08739ed9701f69bc212ab2324a22e1b') in 0.130309 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Scripts/UserProfile/UserProfile.cs
-  artifactKey: Guid(871424dff82b8c849b5fcf56ea0ce9c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/UserProfile/UserProfile.cs using Guid(871424dff82b8c849b5fcf56ea0ce9c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4bbfdc6813b1453677f346529425494') in 0.002495 seconds 
+  Time since last request: 0.000028 seconds.
+  path: Assets/Terrain Assets/Terrain Textures/PathWalk.png
+  artifactKey: Guid(393d186473d454e4ebe1197a215925d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain Assets/Terrain Textures/PathWalk.png using Guid(393d186473d454e4ebe1197a215925d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9b0d9f59bfcc5a496a8f9f7ddc9a394') in 0.031271 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1064.723255 seconds.
+  path: Assets/Tempo Props/Roads
+  artifactKey: Guid(cc1eba7bd7737a847b7375dd116e517e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tempo Props/Roads using Guid(cc1eba7bd7737a847b7375dd116e517e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d600b441e3116dc0a30ca10b35cb51c') in 0.004222 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.579001 seconds.
+  path: Assets/Tempo Props/Roads/source
+  artifactKey: Guid(26830246901235742b41c0ebe7eb7c5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tempo Props/Roads/source using Guid(26830246901235742b41c0ebe7eb7c5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a97767c06e8c58b1345b0efc5fca80ea') in 0.005395 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.416898 seconds.
+  path: Assets/Tempo Props/Roads/source/pavement.fbx
+  artifactKey: Guid(8d8be2c3e23927e4489bc40e706d89ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tempo Props/Roads/source/pavement.fbx using Guid(8d8be2c3e23927e4489bc40e706d89ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba4d0563e79bc9418aa8d25dee8b34eb') in 0.302006 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 293.075673 seconds.
+  path: Assets/Tempo Props/Roads/source/pavement.fbx
+  artifactKey: Guid(8d8be2c3e23927e4489bc40e706d89ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tempo Props/Roads/source/pavement.fbx using Guid(8d8be2c3e23927e4489bc40e706d89ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0bbe81aa7b17da43c79ae78a5d84c42') in 0.101809 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 379.151089 seconds.
+  path: Assets/Tempo Props/Roads/pavement.fbx
+  artifactKey: Guid(65150443a60290948bc71a90e3434977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tempo Props/Roads/pavement.fbx using Guid(65150443a60290948bc71a90e3434977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c0350d99bf18ef58660dcfdc9978cbb') in 0.091796 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 41.886602 seconds.
+  path: Assets/Tempo Props/Roads/pavement.fbx
+  artifactKey: Guid(65150443a60290948bc71a90e3434977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tempo Props/Roads/pavement.fbx using Guid(65150443a60290948bc71a90e3434977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc8955c873369a52bbc1ead80dbb5856') in 0.072470 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 125.486155 seconds.
+  path: Assets/Tempo Props/Roads/pavement.fbx
+  artifactKey: Guid(65150443a60290948bc71a90e3434977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tempo Props/Roads/pavement.fbx using Guid(65150443a60290948bc71a90e3434977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85855d4c468c0b48c4d0507f94286e73') in 0.070270 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 82.853493 seconds.
+  path: Assets/Tempo Props/Roads/pavement.fbx
+  artifactKey: Guid(65150443a60290948bc71a90e3434977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tempo Props/Roads/pavement.fbx using Guid(65150443a60290948bc71a90e3434977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec40781fb307dd8148756636d13dbf44') in 0.034758 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 270.180351 seconds.
+  path: Assets/Tempo Props/Roads/pavement.fbx
+  artifactKey: Guid(65150443a60290948bc71a90e3434977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tempo Props/Roads/pavement.fbx using Guid(65150443a60290948bc71a90e3434977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e6b0568efdda3870fcb9761705e1bb2') in 0.037771 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 526.374237 seconds.
+  path: Assets/Tempo Props/Roads/pavement Variant.prefab
+  artifactKey: Guid(cc91ea8fa3bf0c44d8a3096bbb34dbca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tempo Props/Roads/pavement Variant.prefab using Guid(cc91ea8fa3bf0c44d8a3096bbb34dbca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '627c25c732d8f85d2383541cbd109552') in 0.027037 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.948652 seconds.
+  path: Assets/Tempo Props/Roads/pavement-right.prefab
+  artifactKey: Guid(cc91ea8fa3bf0c44d8a3096bbb34dbca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tempo Props/Roads/pavement-right.prefab using Guid(cc91ea8fa3bf0c44d8a3096bbb34dbca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67d6158e89b72bf9b98f342ef41c646c') in 0.020717 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 129.495794 seconds.
+  path: Assets/Unity Road Creator Pro/Models
+  artifactKey: Guid(a10907917d1f1c44b81bbfa4620fc0a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Road Creator Pro/Models using Guid(a10907917d1f1c44b81bbfa4620fc0a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d1b6ff28617e78571c5b9c41995153d') in 0.004579 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.651115 seconds.
+  path: Assets/Unity Road Creator Pro/Models/Road Assets
+  artifactKey: Guid(13a3b613d3eb28841babd51d19dff2f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Road Creator Pro/Models/Road Assets using Guid(13a3b613d3eb28841babd51d19dff2f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e19cf8565156a2b0425c1036633507b') in 0.003930 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.970682 seconds.
+  path: Assets/Unity Road Creator Pro/Resources/Prefabs
+  artifactKey: Guid(b5336c668e73e4743abb7bc9b2c06221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Road Creator Pro/Resources/Prefabs using Guid(b5336c668e73e4743abb7bc9b2c06221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8717af907196445b37fd2344251a6ddb') in 0.004356 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 111.022683 seconds.
+  path: Assets/Unity Road Creator Pro/Resources/Materials/Road
+  artifactKey: Guid(5394ef969b5e8ba45a7ca8c60aff19eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Road Creator Pro/Resources/Materials/Road using Guid(5394ef969b5e8ba45a7ca8c60aff19eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb6f278bed1b1777a4d3af826233633e') in 0.003982 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 134.829694 seconds.
+  path: Assets/Unity Road Creator Pro/Presets/Prefab Lines/Cones Preset.asset
+  artifactKey: Guid(9c7fdc27b217b0c43b24dfe2918cc195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Road Creator Pro/Presets/Prefab Lines/Cones Preset.asset using Guid(9c7fdc27b217b0c43b24dfe2918cc195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5a09a16a71b7da3e4b88964975e1ee7') in 0.013774 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.761493 seconds.
+  path: Assets/Unity Road Creator Pro/Presets/Prefab Lines/Long Crossing Preset.asset
+  artifactKey: Guid(86fa03f40cad5da48ba12f421255281f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Road Creator Pro/Presets/Prefab Lines/Long Crossing Preset.asset using Guid(86fa03f40cad5da48ba12f421255281f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '071fd7065f7d3b3a7d9e1c495688cc48') in 0.006139 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.321759 seconds.
+  path: Assets/Unity Road Creator Pro/Presets/Prefab Lines/Street Lamp Preset.asset
+  artifactKey: Guid(1f0200b17302f534593eafef90b5ba84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Road Creator Pro/Presets/Prefab Lines/Street Lamp Preset.asset using Guid(1f0200b17302f534593eafef90b5ba84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3e4e21344599bc5c064ba48f0d90a12') in 0.005568 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 28.336088 seconds.
+  path: Assets/Unity Road Creator Pro/Models/Plants/Bush N240713.3DS
+  artifactKey: Guid(b14ff927e24db584e9d8b824ba5e18c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Road Creator Pro/Models/Plants/Bush N240713.3DS using Guid(b14ff927e24db584e9d8b824ba5e18c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fa7fef65a6d9d49f96a89b4d843427c') in 0.125881 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 45.977660 seconds.
+  path: Assets/Unity Road Creator Pro/Presets/Prefab Lines
+  artifactKey: Guid(f129d5616c5ed6347883a336130ed785) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Road Creator Pro/Presets/Prefab Lines using Guid(f129d5616c5ed6347883a336130ed785) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef7db19011ff492d71172e77785ed99a') in 0.003860 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 87.518804 seconds.
+  path: Assets/Unity Road Creator Pro/Presets/Prefab Lines/pavement-right.asset.prefab
+  artifactKey: Guid(cc91ea8fa3bf0c44d8a3096bbb34dbca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Road Creator Pro/Presets/Prefab Lines/pavement-right.asset.prefab using Guid(cc91ea8fa3bf0c44d8a3096bbb34dbca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79158fc1e8e043c77e68fc7a2dc4c321') in 0.023308 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1166.654046 seconds.
+  path: Assets/Unity Road Creator Pro/Presets/Prefab Lines/pavement-right.prefab
+  artifactKey: Guid(cc91ea8fa3bf0c44d8a3096bbb34dbca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Road Creator Pro/Presets/Prefab Lines/pavement-right.prefab using Guid(cc91ea8fa3bf0c44d8a3096bbb34dbca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96aad7a7b8166f876413d11d8b2ade23') in 0.029715 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.472136 seconds.
+  path: Assets/Unity Road Creator Pro/Presets/Prefab Lines/pavement-right.prefab
+  artifactKey: Guid(cc91ea8fa3bf0c44d8a3096bbb34dbca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Road Creator Pro/Presets/Prefab Lines/pavement-right.prefab using Guid(cc91ea8fa3bf0c44d8a3096bbb34dbca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39b85e04de78ccbe5d61af92a7a5c684') in 0.022323 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.268986 seconds.
+  path: Assets/Unity Road Creator Pro/Presets/Prefab Lines/pavement-right.prefab
+  artifactKey: Guid(cc91ea8fa3bf0c44d8a3096bbb34dbca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Road Creator Pro/Presets/Prefab Lines/pavement-right.prefab using Guid(cc91ea8fa3bf0c44d8a3096bbb34dbca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8016858d282c7c53711adb95ff35f84') in 0.020216 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.485470 seconds.
+  path: Assets/Unity Road Creator Pro/Presets/Prefab Lines/pavement-right.prefab
+  artifactKey: Guid(cc91ea8fa3bf0c44d8a3096bbb34dbca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Road Creator Pro/Presets/Prefab Lines/pavement-right.prefab using Guid(cc91ea8fa3bf0c44d8a3096bbb34dbca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'debe2028a5c969745cceaee7f9df8293') in 0.021192 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 95.933771 seconds.
+  path: Assets/Unity Road Creator Pro/Presets/Prefab Lines/pavement-right Variant.prefab
+  artifactKey: Guid(79df13cada9ed0e449402c8dc11a2b8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Road Creator Pro/Presets/Prefab Lines/pavement-right Variant.prefab using Guid(79df13cada9ed0e449402c8dc11a2b8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b7b47eea4e2a6f0111deea381ad19ac') in 0.019706 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.191831 seconds.
+  path: Assets/Unity Road Creator Pro/Presets/Prefab Lines/pavement-right Variant.prefab
+  artifactKey: Guid(79df13cada9ed0e449402c8dc11a2b8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Road Creator Pro/Presets/Prefab Lines/pavement-right Variant.prefab using Guid(79df13cada9ed0e449402c8dc11a2b8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a231b21a683680c96673b827f7c5eb0') in 0.009066 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 278.590391 seconds.
+  path: Assets/Tempo Props/Roads/pavement Variant.prefab
+  artifactKey: Guid(3103f8b873814ad40891a72255749567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tempo Props/Roads/pavement Variant.prefab using Guid(3103f8b873814ad40891a72255749567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb8aad03db7a615ecda42630c9f1d455') in 0.021525 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 74.347373 seconds.
+  path: Assets/Tempo Props/Roads/pavement Variant.prefab
+  artifactKey: Guid(3103f8b873814ad40891a72255749567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tempo Props/Roads/pavement Variant.prefab using Guid(3103f8b873814ad40891a72255749567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01edeb5bdfb5385f1a26d79f3b75c6ee') in 0.019301 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.561812 seconds.
+  path: Assets/Tempo Props/Roads/pavement Variant.prefab
+  artifactKey: Guid(3103f8b873814ad40891a72255749567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tempo Props/Roads/pavement Variant.prefab using Guid(3103f8b873814ad40891a72255749567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5efb0310678c630b25b1f8b6b9ad5985') in 0.021250 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.462611 seconds.
+  path: Assets/Tempo Props/Roads/pavement Variant.prefab
+  artifactKey: Guid(3103f8b873814ad40891a72255749567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tempo Props/Roads/pavement Variant.prefab using Guid(3103f8b873814ad40891a72255749567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddc91e7f1ca0cf77ec1b6c7f90343c93') in 0.020372 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.607113 seconds.
+  path: Assets/Tempo Props/Roads/pavement Variant.prefab
+  artifactKey: Guid(3103f8b873814ad40891a72255749567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tempo Props/Roads/pavement Variant.prefab using Guid(3103f8b873814ad40891a72255749567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4229952931da23eaf5915169540afb78') in 0.022242 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 24.969550 seconds.
+  path: Assets/Tempo Props/Roads/pavement Variant.prefab
+  artifactKey: Guid(3103f8b873814ad40891a72255749567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tempo Props/Roads/pavement Variant.prefab using Guid(3103f8b873814ad40891a72255749567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab2fb4828df43a1d4c2053aaa3b13494') in 0.021716 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.797184 seconds.
+  path: Assets/Tempo Props/Roads/pavement Variant.prefab
+  artifactKey: Guid(3103f8b873814ad40891a72255749567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tempo Props/Roads/pavement Variant.prefab using Guid(3103f8b873814ad40891a72255749567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '488cfb1af9c596083ae181f81561913b') in 0.021387 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 437.263519 seconds.
+  path: Assets/Unity Road Creator Pro/Resources/Prefabs/Cone.prefab
+  artifactKey: Guid(adb805c9759c4b746b49b991de40057a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Road Creator Pro/Resources/Prefabs/Cone.prefab using Guid(adb805c9759c4b746b49b991de40057a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cf3e86411c1de228d64847d57c6e329') in 0.020097 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 129.496635 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(c6c4c35fc99bea946b4f41986b9e62cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(c6c4c35fc99bea946b4f41986b9e62cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32996958e180f625ab23af5f79f713f0') in 0.003250 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.435288 seconds.
+  path: Assets/Tempo Props/Roads/pavement Variant.prefab
+  artifactKey: Guid(3103f8b873814ad40891a72255749567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tempo Props/Roads/pavement Variant.prefab using Guid(3103f8b873814ad40891a72255749567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbeb5775435e72d715b1bf8279ca5b17') in 0.020109 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.642127 seconds.
+  path: Assets/Tempo Props/Roads/pavement Variant.prefab
+  artifactKey: Guid(3103f8b873814ad40891a72255749567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tempo Props/Roads/pavement Variant.prefab using Guid(3103f8b873814ad40891a72255749567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34b22678ba4cfb2b5fa40721d281c226') in 0.020396 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.713301 seconds.
+  path: Assets/Tempo Props/Roads/pavement Variant.prefab
+  artifactKey: Guid(3103f8b873814ad40891a72255749567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tempo Props/Roads/pavement Variant.prefab using Guid(3103f8b873814ad40891a72255749567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7683bcde3f723f0888763cf18bac4a6') in 0.021546 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.634267 seconds.
+  path: Assets/Tempo Props/Roads/pavement Variant.prefab
+  artifactKey: Guid(3103f8b873814ad40891a72255749567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tempo Props/Roads/pavement Variant.prefab using Guid(3103f8b873814ad40891a72255749567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d28d261585e33e985c25fc46393298d') in 0.021426 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.677359 seconds.
+  path: Assets/Tempo Props/Roads/pavement Variant.prefab
+  artifactKey: Guid(3103f8b873814ad40891a72255749567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tempo Props/Roads/pavement Variant.prefab using Guid(3103f8b873814ad40891a72255749567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87d29da702d72a6d51e35648db1fbd8a') in 0.022064 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 74.563455 seconds.
+  path: Assets/Tempo Props/Roads/pavement.fbx
+  artifactKey: Guid(65150443a60290948bc71a90e3434977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tempo Props/Roads/pavement.fbx using Guid(65150443a60290948bc71a90e3434977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dab9ff67096ed6a73e384b729a694b0') in 0.034949 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.453714 seconds.
+  path: Assets/Tempo Props/Roads/pavement.fbx
+  artifactKey: Guid(65150443a60290948bc71a90e3434977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tempo Props/Roads/pavement.fbx using Guid(65150443a60290948bc71a90e3434977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37f80a99b8ad24333fc1ea986382606d') in 0.030653 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.950825 seconds.
+  path: Assets/Tempo Props/Roads/pavement.fbx
+  artifactKey: Guid(65150443a60290948bc71a90e3434977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tempo Props/Roads/pavement.fbx using Guid(65150443a60290948bc71a90e3434977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bdc923aa9a3fd68d4db287b95822cfb') in 0.036692 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 189.875135 seconds.
+  path: Assets/Tempo Props/Roads/pavement Variant.prefab
+  artifactKey: Guid(3103f8b873814ad40891a72255749567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tempo Props/Roads/pavement Variant.prefab using Guid(3103f8b873814ad40891a72255749567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '257ef015a8276157ab37581ddc2038aa') in 0.021048 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.436630 seconds.
+  path: Assets/Tempo Props/Roads/pavement Variant.prefab
+  artifactKey: Guid(3103f8b873814ad40891a72255749567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tempo Props/Roads/pavement Variant.prefab using Guid(3103f8b873814ad40891a72255749567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd745e86871e6f3a9d965f333f856eca4') in 0.023064 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 145.201943 seconds.
+  path: Assets/Tempo Props/Roads/pavement Variant.prefab
+  artifactKey: Guid(3103f8b873814ad40891a72255749567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tempo Props/Roads/pavement Variant.prefab using Guid(3103f8b873814ad40891a72255749567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0d49dea2af0b7063113e201c5c657e8') in 0.023452 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.006353 seconds.
+Registered in 0.005955 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0.97 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 2.26 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.054 seconds
+- Completed reload, in  3.469 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2054ms)
-		BeginReloadAssembly (230ms)
+	ReloadAssembly (3471ms)
+		BeginReloadAssembly (603ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (14ms)
+			DisableScriptedObjects (35ms)
 			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (55ms)
-		EndReloadAssembly (1629ms)
-			LoadAssemblies (152ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (201ms)
+		EndReloadAssembly (2525ms)
+			LoadAssemblies (317ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (513ms)
-				TypeCache.Initialize (506ms)
-					TypeCache.ScanAssembly (497ms)
-				ResolveRequiredComponents (7ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (123ms)
-			SetupLoadedEditorAssemblies (715ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (48ms)
-				SetLoadedEditorAssemblies (14ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (160ms)
-				ProcessInitializeOnLoadAttributes (428ms)
-				ProcessInitializeOnLoadMethodAttributes (54ms)
-				AfterProcessingInitializeOnLoad (10ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
-Platform modules already initialized, skipping
-Shader 'Custom/ProhibitedAreaShader': fallback shader 'Transparent/Cutout' not found
-Refreshing native plugins compatible for Editor in 4.05 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3305 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 21 unused Assets / (186.4 KB). Loaded Objects now: 3808.
-Memory consumption went from 0.51 GB to 0.51 GB.
-Total: 11.682800 ms (FindLiveObjects: 4.400700 ms CreateObjectMapping: 0.395100 ms MarkObjects: 6.774300 ms  DeleteObjects: 0.109600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006675 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0.96 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.177 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2179ms)
-		BeginReloadAssembly (205ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (50ms)
-		EndReloadAssembly (1781ms)
-			LoadAssemblies (149ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (554ms)
-				TypeCache.Initialize (544ms)
-					TypeCache.ScanAssembly (530ms)
-				ResolveRequiredComponents (10ms)
+			SetupTypeCache (818ms)
+				TypeCache.Initialize (803ms)
+					TypeCache.ScanAssembly (785ms)
+				ResolveRequiredComponents (15ms)
 			ReleaseScriptCaches (4ms)
-			RebuildScriptCaches (132ms)
-			SetupLoadedEditorAssemblies (796ms)
+			RebuildScriptCaches (222ms)
+			SetupLoadedEditorAssemblies (1061ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (51ms)
-				SetLoadedEditorAssemblies (15ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (146ms)
-				ProcessInitializeOnLoadAttributes (499ms)
-				ProcessInitializeOnLoadMethodAttributes (72ms)
-				AfterProcessingInitializeOnLoad (11ms)
+				InitializePlatformSupportModulesInManaged (66ms)
+				SetLoadedEditorAssemblies (21ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (214ms)
+				ProcessInitializeOnLoadAttributes (647ms)
+				ProcessInitializeOnLoadMethodAttributes (95ms)
+				AfterProcessingInitializeOnLoad (15ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (13ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
 Platform modules already initialized, skipping
 Shader 'Custom/ProhibitedAreaShader': fallback shader 'Transparent/Cutout' not found
-Refreshing native plugins compatible for Editor in 37.61 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 7.14 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3306 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 21 unused Assets / (193.5 KB). Loaded Objects now: 3811.
-Memory consumption went from 0.51 GB to 0.51 GB.
-Total: 7.500900 ms (FindLiveObjects: 0.665000 ms CreateObjectMapping: 0.530600 ms MarkObjects: 6.139400 ms  DeleteObjects: 0.163300 ms)
+Unloading 3315 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (186.4 KB). Loaded Objects now: 3871.
+Memory consumption went from 0.52 GB to 0.52 GB.
+Total: 8.996100 ms (FindLiveObjects: 0.694200 ms CreateObjectMapping: 0.458200 ms MarkObjects: 7.690500 ms  DeleteObjects: 0.151100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -298,58 +521,112 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 102.583438 seconds.
-  path: Assets/Scripts/UserProfile/UserProfileUI.cs
-  artifactKey: Guid(90841ad31b08439418a8cb74a371f2b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/UserProfile/UserProfileUI.cs using Guid(90841ad31b08439418a8cb74a371f2b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a21d6f9b156e47bd41d771a1f4b8ee0') in 0.005006 seconds 
+  Time since last request: 3955.027427 seconds.
+  path: Assets/Sprites/Buttons/Acknowledgement.png
+  artifactKey: Guid(34c31f7f4cc799649b14be348a299d1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Buttons/Acknowledgement.png using Guid(34c31f7f4cc799649b14be348a299d1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c77774e35d6c9e941357f868655e7745') in 0.277722 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 589.557953 seconds.
+  path: Assets/Terrain Assets/Terrain Textures/PathWalk.psd
+  artifactKey: Guid(509d31545b6c4604a852939b74b49467) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain Assets/Terrain Textures/PathWalk.psd using Guid(509d31545b6c4604a852939b74b49467) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63aed509255609078d845f50a6d9d7b5') in 0.031007 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 56.269411 seconds.
+  path: Assets/Terrain Assets/Terrain Textures/Grass&Rock.psd
+  artifactKey: Guid(440eb36db91ca410f800ff3cfe43572f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain Assets/Terrain Textures/Grass&Rock.psd using Guid(440eb36db91ca410f800ff3cfe43572f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfaf737e1717c36b04183df2b87181a5') in 0.023697 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 242.984972 seconds.
+  path: Assets/Terrain Assets/Terrain Grass/Grass.psd
+  artifactKey: Guid(2c528fec5d95e4ac28cf46399b887662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain Assets/Terrain Grass/Grass.psd using Guid(2c528fec5d95e4ac28cf46399b887662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed4cfce6176ff975e8fee891c4b21104') in 0.027881 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 44.510255 seconds.
+  path: Assets/Terrain Assets/Terrain Textures/Base.terrainlayer
+  artifactKey: Guid(3a4c886f2d99ef44c92607092262b9bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain Assets/Terrain Textures/Base.terrainlayer using Guid(3a4c886f2d99ef44c92607092262b9bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4243156f253bfbf7a4990d7da468e7c0') in 0.051876 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 68.405067 seconds.
+  path: Assets/Terrain Assets/Terrain Textures/Pathwalk.terrainlayer
+  artifactKey: Guid(0d2300229e90e7e43934208ef0200e19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain Assets/Terrain Textures/Pathwalk.terrainlayer using Guid(0d2300229e90e7e43934208ef0200e19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44949c2315146c4ad8fa8b7c9d5cbfe4') in 0.024334 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 33.903460 seconds.
+  path: Assets/Terrain Assets/Terrain Textures/Pathwalk.terrainlayer
+  artifactKey: Guid(0d2300229e90e7e43934208ef0200e19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain Assets/Terrain Textures/Pathwalk.terrainlayer using Guid(0d2300229e90e7e43934208ef0200e19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb9e5c2d2a081fd5106547cf290b2bbb') in 0.006978 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 112.463998 seconds.
+  path: Assets/Terrain Assets/Terrain Textures/PathWalk.psd
+  artifactKey: Guid(509d31545b6c4604a852939b74b49467) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain Assets/Terrain Textures/PathWalk.psd using Guid(509d31545b6c4604a852939b74b49467) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a946f2e0066ebd5bb1228ca2ec812972') in 0.016270 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 256.706494 seconds.
+  path: Assets/Terrain Assets/Terrain Textures/PathWalk.psd
+  artifactKey: Guid(509d31545b6c4604a852939b74b49467) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain Assets/Terrain Textures/PathWalk.psd using Guid(509d31545b6c4604a852939b74b49467) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7408061cd585c3ae17c5b0f1b63b6a4') in 0.017609 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 384.023105 seconds.
+  path: Assets/Terrain Assets/Terrain Textures/Base.terrainlayer
+  artifactKey: Guid(3a4c886f2d99ef44c92607092262b9bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain Assets/Terrain Textures/Base.terrainlayer using Guid(3a4c886f2d99ef44c92607092262b9bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1efd5557b769accd0c85325a883ee003') in 0.039833 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005527 seconds.
+Registered in 0.010302 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 2.74 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 4.39 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.896 seconds
+- Completed reload, in  6.000 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2897ms)
-		BeginReloadAssembly (217ms)
+	ReloadAssembly (6004ms)
+		BeginReloadAssembly (935ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (10ms)
+			DisableScriptedObjects (56ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (55ms)
-		EndReloadAssembly (2467ms)
-			LoadAssemblies (161ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (754ms)
-				TypeCache.Initialize (740ms)
-					TypeCache.ScanAssembly (717ms)
-				ResolveRequiredComponents (14ms)
-			ReleaseScriptCaches (5ms)
-			RebuildScriptCaches (205ms)
-			SetupLoadedEditorAssemblies (1091ms)
+			CreateAndSetChildDomain (299ms)
+		EndReloadAssembly (4435ms)
+			LoadAssemblies (528ms)
+			RebuildTransferFunctionScriptingTraits (3ms)
+			SetupTypeCache (1508ms)
+				TypeCache.Initialize (1486ms)
+					TypeCache.ScanAssembly (1462ms)
+				ResolveRequiredComponents (23ms)
+			ReleaseScriptCaches (10ms)
+			RebuildScriptCaches (323ms)
+			SetupLoadedEditorAssemblies (1897ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (80ms)
-				SetLoadedEditorAssemblies (25ms)
-				RefreshPlugins (3ms)
-				BeforeProcessingInitializeOnLoad (233ms)
-				ProcessInitializeOnLoadAttributes (686ms)
-				ProcessInitializeOnLoadMethodAttributes (56ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
+				InitializePlatformSupportModulesInManaged (108ms)
+				SetLoadedEditorAssemblies (38ms)
+				RefreshPlugins (4ms)
+				BeforeProcessingInitializeOnLoad (347ms)
+				ProcessInitializeOnLoadAttributes (1200ms)
+				ProcessInitializeOnLoadMethodAttributes (168ms)
+				AfterProcessingInitializeOnLoad (31ms)
+				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (14ms)
+			AwakeInstancesAfterBackupRestoration (32ms)
 Platform modules already initialized, skipping
 Shader 'Custom/ProhibitedAreaShader': fallback shader 'Transparent/Cutout' not found
-Refreshing native plugins compatible for Editor in 11.47 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 7.37 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3305 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 21 unused Assets / (186.4 KB). Loaded Objects now: 3814.
-Memory consumption went from 0.51 GB to 0.51 GB.
-Total: 4.888400 ms (FindLiveObjects: 0.346700 ms CreateObjectMapping: 0.425000 ms MarkObjects: 4.024000 ms  DeleteObjects: 0.090900 ms)
+Unloading 3315 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (186.4 KB). Loaded Objects now: 3877.
+Memory consumption went from 0.52 GB to 0.52 GB.
+Total: 15.338700 ms (FindLiveObjects: 0.769600 ms CreateObjectMapping: 0.787100 ms MarkObjects: 13.474100 ms  DeleteObjects: 0.304700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -363,13 +640,52 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Prepare
-Shader 'Custom/ProhibitedAreaShader': fallback shader 'Transparent/Cutout' not found
-Refreshing native plugins compatible for Editor in 10.71 ms, found 3 plugins.
+Registering precompiled user dll's ...
+Registered in 0.007584 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.26 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 21 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 21 unused Assets / (190.8 KB). Loaded Objects now: 3814.
-Memory consumption went from 81.4 MB to 81.2 MB.
-Total: 130.477200 ms (FindLiveObjects: 0.740400 ms CreateObjectMapping: 0.414900 ms MarkObjects: 129.216500 ms  DeleteObjects: 0.103100 ms)
+Mono: successfully reloaded assembly
+- Completed reload, in  4.208 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4209ms)
+		BeginReloadAssembly (318ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (84ms)
+		EndReloadAssembly (3664ms)
+			LoadAssemblies (184ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1085ms)
+				TypeCache.Initialize (1065ms)
+					TypeCache.ScanAssembly (1049ms)
+				ResolveRequiredComponents (20ms)
+			ReleaseScriptCaches (5ms)
+			RebuildScriptCaches (284ms)
+			SetupLoadedEditorAssemblies (1683ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (97ms)
+				SetLoadedEditorAssemblies (28ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (320ms)
+				ProcessInitializeOnLoadAttributes (1065ms)
+				ProcessInitializeOnLoadMethodAttributes (144ms)
+				AfterProcessingInitializeOnLoad (26ms)
+				EditorAssembliesLoaded (2ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (27ms)
+Platform modules already initialized, skipping
+Shader 'Custom/ProhibitedAreaShader': fallback shader 'Transparent/Cutout' not found
+Refreshing native plugins compatible for Editor in 8.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3316 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (193.6 KB). Loaded Objects now: 3880.
+Memory consumption went from 0.52 GB to 0.52 GB.
+Total: 16.300500 ms (FindLiveObjects: 0.702000 ms CreateObjectMapping: 0.698000 ms MarkObjects: 14.767500 ms  DeleteObjects: 0.130200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 

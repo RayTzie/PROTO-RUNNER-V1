@@ -1,7 +1,1 @@
-# THIS REPO HAD ISSUES 
-
-<div align="center">
-    <img src="https://github.com/user-attachments/assets/5e97b600-6c71-459b-8584-0686f686450d" width="400" alt="undefined - Imgur (1) (2)">
-</div>
-
-
+**This repository is now deprecated** due to issues with commit and stash management, which caused inconsistencies in the codebase and complications with version control. All further development and updates have been moved to a new repository, named [Road_Runner](https://github.com/RayTzie/Road_Runner).
